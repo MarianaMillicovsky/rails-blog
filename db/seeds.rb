@@ -8,7 +8,7 @@
 
 require 'faker'
 
-100.times do
+10.times do
     articles = Article.create!(
         title: Faker::Book.title,
         body: Faker::Quote.famous_last_words
